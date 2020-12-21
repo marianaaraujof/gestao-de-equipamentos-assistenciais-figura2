@@ -47,7 +47,7 @@
 
                     var offset = parseFloat(settings.panels.css("padding-right"));
 
-                    //Get the postion of each panle and put it in an arry
+                    //Get the postion of each panel and put it in an array
                     settings.panels.each($.proxy(this.positionLoop, this, offset))
                         .each(this.setPanelPosition);
                 },
@@ -59,7 +59,7 @@
 
                     divPositionRight.push(leftPostion);
 
-                    //What the postion of the panle will be when its on the right side
+                    //What the postion of the panel will be when its on the right side
                     divPositionLeft.push((this.tabWidth + offset) * index);
 
                 },
@@ -70,7 +70,8 @@
                     $(val).css({
                         left: divPositionRight[index],
                         position: "absolute"
-                    }).data("right", divPositionRight[index]).data("position", "right");
+                    }).data("right", divPositionRight[index]+50).data("position", "right");
+                    
                 },
 
                 bindEvents: function () {
