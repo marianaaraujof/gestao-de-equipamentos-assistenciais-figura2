@@ -133,6 +133,9 @@ p {
 	text-align: center;
 	padding: 1em 2em;
 }
+.ref {
+	font-size: 0.7em;
+}
 
 .model img {
 	z-index: 2;
