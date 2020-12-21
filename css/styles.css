@@ -129,7 +129,6 @@ p {
 .model img {
 	z-index: 2;
 	width: auto;
-	height: 300px;
 
 }
 .panelTitle.last{
@@ -145,4 +144,22 @@ p {
 	visibility: visible;
 	z-index: 0;
 	opacity: 1;
+}
+
+#footer{
+	border-top: 2px solid rgba(0, 0, 0, 0.08);
+	margin-top: 3em;
+	padding: 2em;
+}
+
+#footer .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#footer .container img {
+	height: 50px;
+	width: auto;
 }
