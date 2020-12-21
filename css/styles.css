@@ -133,7 +133,7 @@ p {
 	text-align: center;
 	padding: 1em 2em;
 }
-.ref {
+.model p.ref {
 	font-size: 0.7em;
 }
 
